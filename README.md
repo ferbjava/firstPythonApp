@@ -1,2 +1,2 @@
 # firstPythonApp
-first Python app for learn and testing purposes
+first Python app for learning and testing purposes
