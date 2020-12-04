@@ -88,10 +88,10 @@ class TicTacToeGame:
         return str(x) + str(y)
 
     def sprawdzCzyWPlanszy(self, ruch):
-        return len(re.findall("[a-cA-C][1-3]", ruch)) == 1
+        return False
 
     def sprawdzCzyWolnePole(self, ruch):
-        return self.pola[int(ruch[0])][int(ruch[1])] == " "
+        return False
 
     def sprawdzCzyWygrana(self):
         return
